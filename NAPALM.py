@@ -195,7 +195,7 @@ while True: # While loop and try-except error handling blocks so the user can re
     except ValueError:
         print("Error, didn't choose 1 or 2, TRY AGAIN :/")
 
-    play_again = input("Would you like to play again? (Y/N): ").upper()
+    play_again = input("Would you like to try or play again? (Y/N): ").upper()
 
     if play_again == "N":
         break
